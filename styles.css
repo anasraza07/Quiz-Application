@@ -11,7 +11,7 @@ body {
     display: none;
 }
 
-#question { 
+#question {
     font-size: 18px;
 }
 
@@ -58,4 +58,28 @@ body {
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ccc;
     cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    #quiz-selector {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* margin: 0 500px; */
+        margin: 0 20%;
+    }
+
+    .quiz-card {
+        padding: 10px;
+        margin: 20px;
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        line-height: 90px;
+        font-size: 18px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px #ccc;
+        cursor: pointer;
+    }
 }
